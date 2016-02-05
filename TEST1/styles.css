@@ -1,0 +1,14 @@
+@charset "UTF-8";
+body {
+	
+	background-color:#D3B1B1;
+	
+	}
+	
+#Canvas1{
+	
+	border: dotted 3px black;
+	background-color: lightgray;
+	
+	
+	}	
