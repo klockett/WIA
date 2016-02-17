@@ -1,0 +1,57 @@
+.container{
+    max
+
+}
+
+
+
+.image-shown {
+
+    display:inline-block;
+
+}
+
+
+.image-hidden {
+
+    display: none;
+}
+
+
+.carousel-inner{
+
+    max-width:70%;
+    max-height:70%;
+    position: relative;
+    float:left;
+}
+
+
+
+.carousel-inner img{
+
+ max-width:100%;
+ max-height:100%;
+
+}
+
+.previousLink{
+
+float: left;
+ margin-top: 170px;
+ margin-right: 30px;
+ padding-left: 5%;
+ max-width:100%;
+}
+
+.nextLink {
+
+    float: left;
+    margin-left:30px;
+
+    margin-top: 170px;
+    max-width:100%;
+
+}
+
+
