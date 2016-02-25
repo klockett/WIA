@@ -272,7 +272,28 @@ form{
 
 
 }
+.aboutp{
+  font-weight: bold;
+  font-size: xx-large;
+    border: solid;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 1%;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 20%;
+    margin-top: 5%;
+}
 
+.spray{
+  text-align: center;
+    border: dashed;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    margin-left: 10%;
+    margin-right: 10%;
+    display: block;
+}
 
 @media only screen and (min-width: 767px) and(max-width: 959px) {
 
