@@ -2,11 +2,15 @@
 <html>
 <head lang="en">
     <meta charset="UTF-8">
-    <title></title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eco1 Mobile Detail</title>
+
     <link rel="stylesheet" type="text/css" href="css/stylesheet.css" />
     <link type="text/css" href="css/menu.css" rel="stylesheet" />
     <!-- Start WOWSlider.com HEAD section -->
     <link rel="stylesheet" type="text/css" href="engine1/style.css" />
+
+    <script src="includes/modernizr.js"></script>
     <script type="text/javascript" src="engine1/jquery.js"></script>
 
 
@@ -14,19 +18,19 @@
 </head>
 <body>
 
-
+<!----Logo with animated .gif---->
 <div id="container">
     <section class="logo">
         <a href="index.html">
             <img src="images/logo.gif" alt="Eco1 logo.">  </a>
 
     </section>
+    <!---- End ofLogo with animated .gif---->
 
      <header>
 
 
-         <!-- Start WOWSlider.com BODY section -->
-         <!-- Start WOWSlider.com BODY section -->
+         <!-- Start jQuery WOWSlider.com BODY section -->
 
          <div id="wowslider-container1">
              <div class="ws_images"><ul>
@@ -40,9 +44,10 @@
              <div class="ws_shadow"></div>
          </div>
 
-         <!--------
-         <!-- End WOWSlider.com BODY section -->
-         <!--------------------------------------------------Drop Down Menu-------------------------------->
+
+         <!-- End jQuery WOWSlider.com BODY section -->
+
+         <!--------------------------------------------------jQuery Drop Down Menu-------------------------------->
          <nav id="lavaLamp">
              <ul>
                  <li><a href="index.html">Home</a> </li>
@@ -73,22 +78,25 @@
              </ul>
          </nav>
          <!--------------------------------------------------End of Drop Down Menu-------------------------------->
+
      </header>
+
     <section id="ad1">
-        <img src="images/ecoad1.png" style="width: 1070.5px">
+        <img src="images/ecoad1.png" style="width: 1205.5px">
 
 
     </section>
     <section id="ad2">
-        <img src="images/ecoad2.png" style="width: 1070.5px">
+        <img src="images/ecoad2.png" style="width: 1205.5px">
 
     </section>
 <br>
 
-
-    <canvas id="myCanvas" width="200" height="100" style="border:1px solid #d3d3d3;">
+    <!----Canvas1 tag---->
+    <canvas id="myCanvas" width="200" height="100" style="border:1px hidden #d3d3d3;">
         Your browser does not support the HTML5 canvas tag.</canvas>
-<!----Video tag---->
+
+    <!----Video tag---->
     <section class="instruction">
     <video width="520" height="340" controls>
         <source src="eco1.mp4" type="video/mp4">
@@ -97,20 +105,20 @@
     </video>
         </section>
     <!----End of Video tag---->
+
+
     <footer>
     <p>Eco1 Mobile Detail</p>
 </footer>
  </div>
 
-<script>
-    var c = document.getElementById("myCanvas");
-    var ctx = c.getContext("2d");
-    ctx.font = "30px Arial green";
-    ctx.strokeText("Eco1 Video",10,50);
-</script>
+
+
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 <script type="text/javascript" src="js/menu.js"></script>
 <script type="text/javascript" src="js/main.js"></script>
+<script type="text/javascript" src="js/canvas.js"></script>
+
 <script type="text/javascript" src="engine1/wowslider.js"></script>
 <script type="text/javascript" src="engine1/script.js"></script>
 <!-- End WOWSlider.com BODY section -->
