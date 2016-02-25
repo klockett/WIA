@@ -1,8 +1,11 @@
+#container {
+    max-width: 90%;
+    margin: 0 auto 24px auto;
+}
 
 
 
-
-.image-shown {
+ .image-shown {
 
     display:inline-block;
 
@@ -50,5 +53,172 @@ float: left;
     max-width:100%;
 
 }
+h2{
+    margin-top: 40%;
+    text-align: center;
+
+}
+
+.store{
+    
+    margin-top: 5%;
+    padding-top: 2%;
+    padding: 5%;
+    max-width:100%;
+    border:double;
+    text-align: center;
 
 
+}
+
+#container1{
+    border: solid;
+    margin-top: -5%;
+    width: 200px;
+    height: auto;
+    padding: 2px;
+    margin-right: 3%;
+    display: inline-block;
+}
+
+footer{
+    background-color: #999999;
+    height: 100px;
+    text-align: center;
+    padding-top: 5%;
+}
+
+
+nav { background-color: rgba(0,0,0,.6);
+    position: relative;
+    font-style: normal;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    padding:0 250px ;
+    text-align: center;
+
+}
+
+/* Add menu rules here */
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul::after{
+    content:'';
+    display:block;
+    clear: both;
+}
+nav ul li:hover {
+    background-color: rgba(0, 255, 0, 0.7);
+}
+nav ul li:hover > ul {
+    display:block;
+}
+nav ul li a {
+
+    display:inline-block;
+    color: #fff;
+    padding:10px 20px;
+    text-decoration: none;
+    width: 125px;
+}
+nav ul li a:hover {
+    background-color:green;
+}
+
+nav ul ul {
+    display: none;
+    position: absolute;
+    top: 100%;
+    background-color: rgba(0, 255, 0, 0.7);
+}
+nav ul ul li {
+    position: relative;
+}
+nav ul ul ul{
+    left: 95%;
+    top: 0;
+}
+nav > ul {
+    padding-left: 35px;
+}
+nav > ul > li {
+    float:left;
+
+}
+nav > ul > li > a {
+    padding: 10px 20px 15px 20px;
+    width: auto;
+
+}
+
+#login {
+    margin-top: -15%;
+    padding: 5px 5px 5px 5px;
+    float:right;
+    display:inline-block;
+    clear:both ;
+}
+
+#cta {
+    padding: 5px 5px 5px 5px;
+    margin-top: -10%;
+
+    float:right;
+    clear: both;
+}
+.tooltip {
+    display: none;
+    position: absolute;
+    border: 1px solid #333;
+    background-color: #000000;
+    border-radius:5px;
+    padding:10px;
+    color:#fff;
+    font-size: 12px;
+
+}
+
+#tabs {
+    background-color: #999;
+    width: 600px;
+    height: 100%;
+    padding: 20px;
+    text-align: center;
+
+
+
+}
+
+#tabs-nav{
+    width:600px;
+    height:75px;
+    padding:20px;
+    background-color:#999;
+    text-decoration: none;
+    list-style-type:none;
+
+    text-align: center;
+
+
+
+
+}
+
+#tabs-nav li {
+    display:inline;
+}
+#overlay {
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, .5);
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    display: none;
+
+}
